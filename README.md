@@ -10,6 +10,8 @@ Just like this :
 
 \<?php
 
+include_once ('dbapi.php');
+
 $db = new Database();
 
 $db->Connect(DB_NAME, "localhost", DB_USERNAME, DB_PASSWORD);
