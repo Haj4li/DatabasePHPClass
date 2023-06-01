@@ -2,6 +2,7 @@
 
 // Database API version 0.1
 // Coded By Ali Nakhaee
+// https://github.com/Haj4li
 
 class DataBase
 {
