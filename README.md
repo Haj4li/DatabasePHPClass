@@ -8,9 +8,13 @@ Just include the dbapi.php file in your project, then create an object from Data
 
 Just like this :
 
-<?php
+\<?php
+
 $db = new Database();
+
 $db->Connect(DB_NAME, "localhost", DB_USERNAME, DB_PASSWORD);
+
 // easy
-?>
+
+?\>
 
