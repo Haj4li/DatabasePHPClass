@@ -1,8 +1,7 @@
 <?php
 
-// Database API version 0.1
+// Database API version 0.2
 // Coded By Ali Nakhaee
-// https://github.com/Haj4li
 
 class DataBase
 {
@@ -15,6 +14,10 @@ class DataBase
             die("Database Connection Error : " . mysqli_connect_errno($this->db));
         }
         return mysqli_connect_errno($this->db);
+    }
+    public function Mysqli_real_escape($string)
+    {
+        return mysqli_real_escape_string($this->db,$string);
     }
     public function Execute($query)
     {
